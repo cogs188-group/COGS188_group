@@ -165,3 +165,12 @@ based on heuristics.
 5. **Loop:**  
    - The AI is repeatedly invoked as long as the game is active, continually processing the next set of 10 pieces until the game is over.
    - We can maybe have the user hit space to proceed onto the next AI generated moves or just exit
+
+TODO: 
+#1 Run 100 simulations and store their scores in a csv. - Pierce TODO
+#2 Get stats like average, median, range, etc. Look into alpha beta pruning.
+#3 Implement other heuristics/Monte Carlo
+#4 Look into basic DQN approach for comparison.
+
+Project Proposal Feedback
+"The idea is solid to me, but you did mention that there are existing approaches using DQN to solve this task. I think it would be a good idea to benchmark your approach against the DQN approach to understand which approach obtains a higher score and why. Your backtracking algorithm idea sounds good, but you could also try some of the methods explored in this class, like MCTS. This will help you establish more interesting benchmarks beyond just the random placement model (which should definitely perform worse than your algorithm)."
